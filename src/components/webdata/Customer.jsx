@@ -1,7 +1,15 @@
 import React from "react";
+import { useHistory } from 'react-router-dom';
 
 function Customer(props) {
     console.log("ml: customer: list:", props);
+
+    const history = useHistory();
+
+    const handleClick = () => {
+        history.push("/forms/public-website-form");
+        console.log(handleClick)
+    }
 
     return (
         <div className="the-items">
@@ -19,6 +27,8 @@ function Customer(props) {
             <p>**{item.finished}**</p>
             <p>See <a href="#addon">Add-on</a> section below for additional options</p>
             <p>Ask about quick turn around pricing</p>
+            <button onClick={handleClick} type='button'>Request More Information
+            {console.log(handleClick)}</button>
       </div>
         ))}
       </div>

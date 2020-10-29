@@ -9,6 +9,10 @@ import Home from './components/Home';
 import Team from './components/Team';
 import Contact  from './components/Contact';
 import WebServices from './components/WebServices';
+import CustForm from './components/forms/CustomerForm'
+import InternalForm from './components/forms/InternalForm'
+import GeneralForm from './components/forms/GeneralForm'
+import Form from './components/forms/Form'
 
 export default function App() {
     //<!--Start of Tawk.to Script-->
@@ -31,9 +35,10 @@ export default function App() {
         </div>
         <div className="nav-links">
           <Link to="/">Home</Link>
-          <Link to="/team">The Team</Link>
+          <Link to="/team">About</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/web-services">Web Services</Link>
+          <Link to='/forms'>Forms</Link>
         </div>
       </nav>
       <Switch>
@@ -45,6 +50,18 @@ export default function App() {
           </Route>
           <Route path="/web-services">
             <WebServices />
+          </Route>
+          <Route path='/forms/public-website-form'>
+            <CustForm />
+          </Route>
+          <Route path='/forms/internal-website-form'>
+            <InternalForm />
+          </Route>
+          <Route path='/forms/general-form'>
+            <GeneralForm />
+          </Route>
+          <Route path='/forms'>
+            <Form />
           </Route>
           <Route path="/" component={Home} />
         </Switch>

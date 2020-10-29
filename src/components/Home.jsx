@@ -26,7 +26,7 @@ function Home() {
                     BeeDev Services has solutions!
                 </h2>
                 <p>
-                    In nature a Bee Hive is the work of a colony of bees.  Thats BeeDev Services works.  We want to work WITH YOU.  We take that hive mentality personally.  We have the skills and the time to create websites, but you have ideas and know about your business.  Together we can create, build, update, and even fix your website.
+                    In nature a Bee Hive is created by the work of a colony of bees.  Thats how BeeDev Services works.  We want to work WITH YOU.  We take that hive mentality personally.  We may have the skills and the time to create websites, but you have ideas and know your business.  Together we can create, build, and update your website.
                 </p>
                 </div>
             </div>

@@ -337,6 +337,12 @@ body {
 .App .main-wrapper .content .section .packages .the-items .item-card .item-info p {
   text-align: left;
 }
+.App .forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .App .footer {
   display: flex;
   flex-direction: row;
